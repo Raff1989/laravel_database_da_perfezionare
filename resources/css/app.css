@@ -1,0 +1,169 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+body {
+    background-image:url('../../public/media/wp7723654.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    color: rgb(226, 228, 230);
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* footer home */
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* body-ecosistemi */
+.bg {
+    background-image:url('../../public/media/wp6928860.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:flex-start;
+    align-items:center ;
+    text-align:center;
+    color: rgb(252, 254, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    bottom: 0;
+    font-weight: bold;
+}
+
+/* dropdown */
+.dp{
+    
+  background: gray;
+  border: none;
+}
+
+/* card ecosistemi */
+
+.card {
+    box-sizing: border-box;
+    width: 200px;
+    height: 230px;
+    border:none;
+    background: transparent;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    user-select: none;
+    font-weight: bold;
+    color: black;
+    
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+/* footer ecosistemi */
+
+.foot {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* body dettaglio cards*/
+   .bd {
+
+    background:none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100vh;
+    width: 100%;
+
+  }
+
+  .img-detail {
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 70;
+  }
+
+  main {
+
+    position: absolute;
+    color:rgb(240, 255, 255);
+    top: 15%;
+    font-weight: bolder;
+    text-shadow: 8px 10px 60px rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  /* carnivori */
+
+  .bod {
+
+    background-image:url('../../public/media/OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    image-rendering: optimizeQuality;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: darkred;
+    color: rgb(205, 223, 201);
+
+
+  }
+
+  /* erbivori */
+  .m1 {
+
+   background-image: url('../../public/media/turtle-barrier-reef.jpg');
+   background-repeat: no-repeat;
+   height: 50vh;
+   width: 50%;
+   
+  
+  }
+
+  .bod34 {
+
+    background: none;
+    background-color: aquamarine;
+  }
+  
+  
